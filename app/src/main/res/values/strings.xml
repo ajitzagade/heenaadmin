@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Heena Admin</string>
+    <string name="title_home">Employees</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_register"><u>No account yet? Register</u></string>
+    <string name="accept_terms_and_conditions">Accept </string>
+    <string name="terms_and_conditions"><u> terms &amp; conditions</u></string>
+    <string name="already_register"><u> Already Registered?</u></string>
+    <string name="collapsing_toolbar">Register </string>
+    <string name="heena_creations">Heena Creations</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_users">Users</string>
+    <string name="title_payments">Payments</string>
+    <string name="title_products">Products</string>
+    <string name="title_appointment">Appointment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_employees">Hello Employees</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_share">Share</string>
+    <string name="title_rate">Rate</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_profile">Profile</string>
+    <string name="discount_amount_100">Discount Amount # <b>100</b></string>
+    <string name="advance_amount_500">Advance Amount # <b>500</b></string>
+    <string name="payable_amount_1200">Payable amount # <b>1200</b></string>
+    <string name="bill">Detailed Bill</string>
+    <string name="contactus">Contact Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
