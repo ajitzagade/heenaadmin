@@ -16,6 +16,7 @@
     <string name="title_payments">Payments</string>
     <string name="title_products">Products</string>
     <string name="title_appointment">Appointment</string>
+    <string name="title_scan">Scan QR</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_employees">Hello Employees</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="heanaadmin.heenacreations.com.heenaadmin">
 
     <application
@@ -21,6 +22,10 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ui.Home.HomeActivity" />
         <activity android:name=".ui.emplopyeeProfile.EmployeeProfileActivity"></activity>
+
+        <activity android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
     </application>
 
 </manifest>
