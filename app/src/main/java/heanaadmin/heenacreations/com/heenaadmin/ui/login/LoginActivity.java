@@ -4,11 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+
 import heanaadmin.heenacreations.com.heenaadmin.R;
 import heanaadmin.heenacreations.com.heenaadmin.ui.BaseActivity;
 import heanaadmin.heenacreations.com.heenaadmin.ui.Home.HomeActivity;
@@ -22,33 +24,15 @@ public class LoginActivity extends BaseActivity {
 
 
     private Unbinder unbinder;
-
-    @BindView(R.id.btn_login)
-    Button mLogin;
-    
-    @BindView(R.id.link_signup)
-    TextView mLinkSignUp;
+    private LinearLayout mLinkSignUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        unbinder = ButterKnife.bind(this);
-        actions();
-    }
-
-    /**
-     * Click actions
-     */
-    private void actions() {
-        mLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-              openHomeScreen();
-            }
-        });
-        
+       // actions();
         // sign up link action
+        mLinkSignUp = findViewById(R.id.registerTxt);
         mLinkSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,6 +40,13 @@ public class LoginActivity extends BaseActivity {
             }
         });
     }
+
+    /**
+     * Click actions
+     */
+
+
+
 
     /**
      * To open registration screen
@@ -79,6 +70,6 @@ public class LoginActivity extends BaseActivity {
     protected void onDestroy() {
         super.onDestroy();
         // unbind ui form butter knife 
-        unbinder.unbind();
+      //  unbinder.unbind();
     }
 }
